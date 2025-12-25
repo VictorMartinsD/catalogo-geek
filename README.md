@@ -2,7 +2,7 @@
 
 ## 🔗 Deploy do Projeto / Project Deploy
 Confira o **Catálogo Geek** em execução através do link abaixo:
-👉 [Aceder ao Catálogo Geek](https://victormartinsd.github.io/m1-catalogo-geek-template-VictorMartinsD/)
+👉 [Acessar ao Catálogo Geek](https://victormartinsd.github.io/m1-catalogo-geek-template-VictorMartinsD/)
 
 ## 📸 Preview
 
@@ -12,27 +12,23 @@ Confira o **Catálogo Geek** em execução através do link abaixo:
 
 ## ✨ Sobre o Projeto
 
-Este projeto é um **Catálogo de Produtos** simples focado em itens *Geek* (quadros e *action figures*). Foi desenvolvido como um exercício prático para fixar e demonstrar o domínio dos seguintes fundamentos:
-
-* **HTML Semântico:** Estrutura básica do catálogo (`<header>`, `<main>`, `<section>`).
-* **CSS:** Estilização, *reset* de estilos (`reset.css`) e layout com Flexbox.
-* **JavaScript e Manipulação do DOM:** O principal foco do projeto é a **renderização dinâmica dos cards** dos produtos.
+Este projeto é um **Catálogo de Produtos** focado em itens Geek (quadros e action figures). O grande diferencial aqui é que a página não é estática; ela utiliza **JavaScript** para processar uma lista de dados e construir a interface automaticamente, simulando o comportamento de um e-commerce real.
 
 ## 🛠️ Funcionalidades e Foco Técnico
 
-O arquivo `script.js` demonstra as seguintes habilidades:
+O arquivo `script.js` demonstra o domínio de conceitos essenciais de Front-end:
 
-* **Estrutura de Dados:** Definição de um `Array` de Objetos (`productsArray`) para simular uma fonte de dados.
-* **Lógica de Negócio:** Criação de funções para **separar** os produtos por categoria (`Paintings` e `Action Figures`).
-* **Renderização Dinâmica:** Criação programática de elementos HTML (`<li>`, `<img>`, `<span>`) e injeção deles no DOM, dentro das suas respectivas seções (`.card_paintings` e `.card_actionfigures`).
+* **Manipulação Dinâmica de DOM:** Uso de funções para criar elementos HTML do zero (`document.createElement`) e organizá-los hierarquicamente.
+* **Lógica de Filtragem:** Implementação de funções que percorrem um `Array` de objetos e separam os produtos por categoria (Paintings e Action Figures) antes de exibi-los.
+* **Interface Responsiva:** Uso de **CSS Flexbox** para garantir que a grade de produtos se ajuste a diferentes resoluções.
+* **Arquitetura Limpa:** Separação clara entre a base de dados (objetos), a lógica de processamento e a estilização.
 
 ## 📁 Estrutura de Arquivos
 
-* `index.html`: Estrutura do catálogo.
-* `reset.css`: Normalização de estilos (Eric Meyer's Reset).
-* `style.css`: Estilização e layout do catálogo (inclui Flexbox).
-* `script.js`: Lógica de separação e renderização dinâmica de produtos.
-* `assets/`: Pasta contendo `logo.svg` e imagens dos produtos.
+* `index.html`: Estrutura base onde os produtos são injetados.
+* `reset.css` / `style.css`: Normalização e estilização visual com Flexbox.
+* `script.js`: O "cérebro" do projeto, responsável pela lógica e renderização.
+* `assets/`: Imagens e recursos visuais.
 
 ## ⚙️ Como Rodar Localmente
 
@@ -44,45 +40,31 @@ O arquivo `script.js` demonstra as seguintes habilidades:
     ```bash
     cd m1-catalogo-geek-template-VictorMartinsD
     ```
-3.  **Abra o `index.html`:** Simplesmente abra o arquivo `index.html` no seu navegador ou use a extensão Live Server do VS Code.
+3.  **Abra o `index.html`:** Abra o arquivo no seu navegador ou use o Live Server do VS Code.
 
----
 ---
 
 # 🇺🇸 Geek Catalog: Dynamic Product Rendering
 
-Check out the **Geek Catalog** in action at the link below:
+## 🔗 Project Deploy
+Check out the **Geek Catalog** in action:
 👉 [Access Geek Catalog](https://victormartinsd.github.io/m1-catalogo-geek-template-VictorMartinsD/)
 
-## 📸 Preview
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/b1ed1fcc-6221-4a79-879e-a38cc4a4299b" alt="Screenshot of the Geek Catalog showing product cards" width="600">
-</p>
-
 ## ✨ About the Project
+This project is a **Product Catalog** that uses **JavaScript** to handle data and build the UI automatically. It simulates a real-world e-commerce behavior by rendering items from a data source instead of having them hardcoded in HTML.
 
-This project is a simple **Product Catalog** focused on Geek items (Paintings and Action Figures). It was developed as a practical exercise to consolidate and demonstrate mastery of the following fundamentals:
-
-* **Semantic HTML:** Basic catalog structure (`<header>`, `<main>`, `<section>`).
-* **CSS:** Styling, style reset (`reset.css`), and layout using Flexbox.
-* **JavaScript and DOM Manipulation:** The primary focus is the **dynamic rendering of product cards**.
-
-## 🛠️ Features and Technical Focus
-
-The `script.js` file demonstrates the following skills:
-
-* **Data Structure:** Definition of an **Object Array** (`productsArray`) to simulate a data source.
-* **Business Logic:** Creation of functions to **separate** products by category (`Paintings` and `Action Figures`).
-* **Dynamic Rendering:** Programmatic creation of HTML elements (`<li>`, `<img>`, `<span>`) and injecting them into the DOM within their respective sections (`.card_paintings` and `.card_actionfigures`).
+## 🛠️ Technical Focus
+* **Dynamic DOM Manipulation:** Programmatic creation of HTML elements using `document.createElement`.
+* **Filtering Logic:** Functions that iterate through an **Object Array** to categorize and distribute products into their specific sections.
+* **Responsive Layout:** CSS Flexbox implementation for a seamless catalog grid experience.
+* **Clean Architecture:** Clear separation between the database (objects), processing logic, and styling.
 
 ## 📁 File Structure
 
-* `index.html`: Catalog structure.
-* `reset.css`: Style normalization (Eric Meyer's Reset).
-* `style.css`: Catalog styling and layout (includes Flexbox).
-* `script.js`: Logic for separation and dynamic product rendering.
-* `assets/`: Folder containing `logo.svg` and product images.
+* `index.html`: Base structure where products are injected.
+* `reset.css` / `style.css`: Style normalization and visual layout using Flexbox.
+* `script.js`: The "brain" of the project, responsible for logic and rendering.
+* `assets/`: Images and visual resources.
 
 ## ⚙️ How to Run Locally
 
@@ -94,4 +76,4 @@ The `script.js` file demonstrates the following skills:
     ```bash
     cd m1-catalogo-geek-template-VictorMartinsD
     ```
-3.  **Open `index.html`:** Simply open the `index.html` file in your browser or use the VS Code Live Server extension.
+3.  **Open `index.html`:** Simply open the `index.html` file in your browser or use the Live Server extension in VS Code.
