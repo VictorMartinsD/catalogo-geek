@@ -2,7 +2,7 @@
 
 ## 🔗 Deploy do Projeto / Project Deploy
 Confira o **Catálogo Geek** em execução através do link abaixo:
-👉 [Acessar ao Catálogo Geek](https://victormartinsd.github.io/m1-catalogo-geek-template-VictorMartinsD/)
+👉 [Acessar ao Catálogo Geek](https://victormartinsd.github.io/catalogo-geek/)
 
 ## 📸 Preview
 
@@ -34,11 +34,11 @@ O arquivo `script.js` demonstra o domínio de conceitos essenciais de Front-end:
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/VictorMartinsD/m1-catalogo-geek-template-VictorMartinsD.git](https://github.com/VictorMartinsD/m1-catalogo-geek-template-VictorMartinsD.git)
+    git clone [https://github.com/VictorMartinsD/catalogo-geek.git](https://github.com/VictorMartinsD/catalogo-geek.git)
     ```
 2.  **Acesse a Pasta:**
     ```bash
-    cd m1-catalogo-geek-template-VictorMartinsD
+    cd catalogo-geek
     ```
 3.  **Abra o `index.html`:** Abra o arquivo no seu navegador ou use o Live Server do VS Code.
 
@@ -48,7 +48,7 @@ O arquivo `script.js` demonstra o domínio de conceitos essenciais de Front-end:
 
 ## 🔗 Project Deploy
 Check out the **Geek Catalog** in action:
-👉 [Access Geek Catalog](https://victormartinsd.github.io/m1-catalogo-geek-template-VictorMartinsD/)
+👉 [Access Geek Catalog](https://victormartinsd.github.io/catalogo-geek/)
 
 ## ✨ About the Project
 This project is a **Product Catalog** that uses **JavaScript** to handle data and build the UI automatically. It simulates a real-world e-commerce behavior by rendering items from a data source instead of having them hardcoded in HTML.
@@ -70,10 +70,10 @@ This project is a **Product Catalog** that uses **JavaScript** to handle data an
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/VictorMartinsD/m1-catalogo-geek-template-VictorMartinsD.git](https://github.com/VictorMartinsD/m1-catalogo-geek-template-VictorMartinsD.git)
+    git clone [https://github.com/VictorMartinsD/catalogo-geek.git](https://github.com/VictorMartinsD/catalogo-geek.git)
     ```
 2.  **Access the Folder:**
     ```bash
-    cd m1-catalogo-geek-template-VictorMartinsD
+    cd catalogo-geek
     ```
 3.  **Open `index.html`:** Simply open the `index.html` file in your browser or use the Live Server extension in VS Code.
